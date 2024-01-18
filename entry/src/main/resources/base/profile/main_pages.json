@@ -5,6 +5,7 @@
     "pages/Layout/LinerLayout/AlignPage",
     "pages/Layout/Stack/StackPage",
     "pages/Layout/Stack/StackExamplePage",
-    "pages/Layout/Flex/FlexPage"
+    "pages/Layout/Flex/FlexPage",
+    "pages/Layout/RelativeLayout/RelativeLayoutPage"
   ]
 }
