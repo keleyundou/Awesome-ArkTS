@@ -2,6 +2,8 @@
   "src": [
     "pages/Index",
     "pages/LinerLayout/SpacePage",
-    "pages/LinerLayout/AlignPage"
+    "pages/LinerLayout/AlignPage",
+    "pages/Stack/StackPage",
+    "pages/Stack/StackExamplePage"
   ]
 }
