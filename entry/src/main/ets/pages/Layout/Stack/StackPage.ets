@@ -55,7 +55,7 @@ struct StackPage {
       this.useZIndex()
 
       Button('Next').onClick((event: ClickEvent) => {
-        router.pushUrl({url: 'pages/Stack/StackExamplePage'})
+        router.pushUrl({url: 'pages/Layout/Stack/StackExamplePage'})
       })
     }
     .width('100%')

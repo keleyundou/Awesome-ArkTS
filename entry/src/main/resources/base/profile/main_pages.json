@@ -1,9 +1,9 @@
 {
   "src": [
     "pages/Index",
-    "pages/LinerLayout/SpacePage",
-    "pages/LinerLayout/AlignPage",
-    "pages/Stack/StackPage",
-    "pages/Stack/StackExamplePage"
+    "pages/Layout/LinerLayout/SpacePage",
+    "pages/Layout/LinerLayout/AlignPage",
+    "pages/Layout/Stack/StackPage",
+    "pages/Layout/Stack/StackExamplePage"
   ]
 }
