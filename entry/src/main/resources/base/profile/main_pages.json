@@ -6,6 +6,8 @@
     "pages/Layout/Stack/StackPage",
     "pages/Layout/Stack/StackExamplePage",
     "pages/Layout/Flex/FlexPage",
-    "pages/Layout/RelativeLayout/RelativeLayoutPage"
+    "pages/Layout/RelativeLayout/RelativeLayoutPage",
+    "pages/Layout/List/ListPage",
+    "pages/Layout/List/ListGroupPage"
   ]
 }
