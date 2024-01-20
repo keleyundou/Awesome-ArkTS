@@ -8,6 +8,7 @@
     "pages/Layout/Flex/FlexPage",
     "pages/Layout/RelativeLayout/RelativeLayoutPage",
     "pages/Layout/List/ListPage",
-    "pages/Layout/List/ListGroupPage"
+    "pages/Layout/List/ListGroupPage",
+    "pages/Layout/Grid/GridPage"
   ]
 }
