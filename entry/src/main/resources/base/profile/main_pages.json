@@ -10,6 +10,8 @@
     "pages/Layout/List/ListPage",
     "pages/Layout/List/ListGroupPage",
     "pages/Layout/Grid/GridPage",
-    "pages/Layout/Swiper/SwiperPage"
+    "pages/Layout/Swiper/SwiperPage",
+    "pages/Layout/GridRow/GridRowPage",
+    "pages/Layout/GridRow/GridRowExamplePage"
   ]
 }
