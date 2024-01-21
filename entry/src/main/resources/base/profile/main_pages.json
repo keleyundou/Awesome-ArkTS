@@ -12,6 +12,7 @@
     "pages/Layout/Grid/GridPage",
     "pages/Layout/Swiper/SwiperPage",
     "pages/Layout/GridRow/GridRowPage",
-    "pages/Layout/GridRow/GridRowExamplePage"
+    "pages/Layout/GridRow/GridRowExamplePage",
+    "pages/Component/ButtonPage"
   ]
 }
