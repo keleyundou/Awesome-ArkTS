@@ -9,6 +9,7 @@
     "pages/Layout/RelativeLayout/RelativeLayoutPage",
     "pages/Layout/List/ListPage",
     "pages/Layout/List/ListGroupPage",
-    "pages/Layout/Grid/GridPage"
+    "pages/Layout/Grid/GridPage",
+    "pages/Layout/Swiper/SwiperPage"
   ]
 }
