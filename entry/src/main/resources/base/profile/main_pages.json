@@ -18,6 +18,7 @@
     "pages/Component/ToggleExamplePage",
     "pages/Component/ProgressExamplePage",
     "pages/Component/TextExamplePage",
-    "pages/Component/TextFieldExamplePage"
+    "pages/Component/TextFieldExamplePage",
+    "pages/Component/CustomDialogExamplePage"
   ]
 }
