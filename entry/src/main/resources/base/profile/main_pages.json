@@ -16,6 +16,7 @@
     "pages/Component/ButtonPage",
     "pages/Component/RadioPage",
     "pages/Component/ToggleExamplePage",
-    "pages/Component/ProgressExamplePage"
+    "pages/Component/ProgressExamplePage",
+    "pages/Component/TextExamplePage"
   ]
 }
