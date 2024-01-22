@@ -15,6 +15,7 @@
     "pages/Layout/GridRow/GridRowExamplePage",
     "pages/Component/ButtonPage",
     "pages/Component/RadioPage",
-    "pages/Component/ToggleExamplePage"
+    "pages/Component/ToggleExamplePage",
+    "pages/Component/ProgressExamplePage"
   ]
 }
