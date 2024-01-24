@@ -22,6 +22,7 @@
     "pages/Component/CustomDialogExamplePage",
     "pages/Component/PopupPage",
     "pages/Component/MenuExamplePage",
-    "pages/Navigation/NavigationExamplePage"
+    "pages/Navigation/NavigationExamplePage",
+    "pages/Tabs/TabsExamplePage"
   ]
 }
