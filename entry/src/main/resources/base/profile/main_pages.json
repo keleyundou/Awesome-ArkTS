@@ -21,6 +21,7 @@
     "pages/Component/TextFieldExamplePage",
     "pages/Component/CustomDialogExamplePage",
     "pages/Component/PopupPage",
-    "pages/Component/MenuExamplePage"
+    "pages/Component/MenuExamplePage",
+    "pages/Navigation/NavigationExamplePage"
   ]
 }
