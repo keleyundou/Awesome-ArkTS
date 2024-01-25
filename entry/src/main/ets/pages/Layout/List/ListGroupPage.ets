@@ -2,7 +2,7 @@ import { generateGroupAppData } from '../../../viewmodel/AppData'
 
 @Entry
 @Component
-export struct ListGroupPage {
+struct ListGroupPage {
   @State message: string = 'Hello World'
   @State selectedIndex: number = 0;
   private listScroller: Scroller = new Scroller()

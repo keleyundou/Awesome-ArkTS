@@ -1,5 +1,3 @@
-import { ListGroupPage } from '../Layout/List/ListGroupPage'
-
 @Entry
 @Component
 struct NavigationExamplePage {
@@ -68,7 +66,7 @@ struct NavigationExamplePage {
         NavRouter() {
           Text(this.message).fontColor(Color.Red)
           NavDestination() {
-            ListGroupPage()
+            Text('Hello')
           }
           .title('标题')
         }
