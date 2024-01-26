@@ -23,6 +23,7 @@
     "pages/Component/PopupPage",
     "pages/Component/MenuExamplePage",
     "pages/Navigation/NavigationExamplePage",
-    "pages/Tabs/TabsExamplePage"
+    "pages/Tabs/TabsExamplePage",
+    "pages/PushNotification/NotificationExamplePage"
   ]
 }
