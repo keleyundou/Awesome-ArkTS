@@ -7,6 +7,7 @@ import window from '@ohos.window';
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
+    console.log('onCreate', JSON.stringify(want.parameters))
   }
 
   onDestroy(): void {
@@ -40,4 +41,10 @@ export default class EntryAbility extends UIAbility {
     // Ability has back to background
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onBackground');
   }
+
+  onNewWant(want: Want) {
+    // 接收 want
+    console.log('onNewWant', JSON.stringify(want))
+  }
+
 }

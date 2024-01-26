@@ -163,11 +163,13 @@ struct NotificationExamplePage {
         {
           deviceId: '',
           bundleName: 'com.example.myapplication',
-          abilityName: '',
+          abilityName: 'EntryAbility',
           action: '',
           entities: [],
           uri: '',
-          parameters: {}
+          parameters: {
+            'k':'1'
+          }
         }
       ],
       operationType: wantAgent.OperationType.START_ABILITY,
@@ -175,7 +177,10 @@ struct NotificationExamplePage {
       wantAgentFlags: [wantAgent.WantAgentFlags.CONSTANT_FLAG],
       extraInfo: {
         'k1': 'v1',
-        'k2': [1,2,3]
+        'k2': [1,2,3],
+        'customObject': {
+          'a1': 'Hello'
+        }
       }
     }
     let wantAgentObject = await wantAgent.getWantAgent(wantAgentInfo)
@@ -190,7 +195,30 @@ struct NotificationExamplePage {
           additionalText: '附加内容'
         }
       },
-      wantAgent: wantAgentObject
+      // wantAgent: wantAgentObject,
+      deliveryTime: Date.now(),
+      showDeliveryTime: true,
+      // isUnremovable: false,
+      tapDismissed: true,
+      autoDeletedTime: Date.now() + 1000,
+      actionButtons: [
+        {
+          title: '取消',
+          wantAgent: wantAgentObject,
+          // TODO 点击通知按钮无法获取 extras
+          extras: {
+            'k': 'v'
+          }
+        },
+        {
+          title: '确定',
+          wantAgent: wantAgentObject
+        },
+        {
+          title: 'button',
+          wantAgent: wantAgentObject
+        }
+      ]
     }
     this.publish(request)
   }
